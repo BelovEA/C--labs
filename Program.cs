@@ -1,18 +1,18 @@
-﻿// Задача 2: Напишите программу, которая на вход принимает 
+// Задача 2: Напишите программу, которая на вход принимает 
 // два числа и выдаёт, какое число большее, а какое меньшее.
-// Console.WriteLine("Данная программа принимает на вход два числа и выдаёт наибольшее и наименьшее из чисел");
-// Console.Write("Введите первое число: ");
-// int num1 = Convert.ToInt32(Console.ReadLine());
-// Console.Write("Введите второе число: ");
-// int num2 = Convert.ToInt32(Console.ReadLine());
-// if(num1 > num2)
-// {
-//     Console.WriteLine(num1 + " является наибольшим числом");
-//     Console.WriteLine(num2 + " является наименьшим числом");
-// }
-// else
-// Console.WriteLine(num2 + " является наибольшим числом");
-// Console.WriteLine(num1 + " является наименьшим числом");
+Console.WriteLine("Данная программа принимает на вход два числа и выдаёт наибольшее и наименьшее из чисел");
+Console.Write("Введите первое число: ");
+int num1 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите второе число: ");
+int num2 = Convert.ToInt32(Console.ReadLine());
+if(num1 > num2)
+{
+    Console.WriteLine(num1 + " является наибольшим числом");
+    Console.WriteLine(num2 + " является наименьшим числом");
+}
+else
+Console.WriteLine(num2 + " является наибольшим числом");
+Console.WriteLine(num1 + " является наименьшим числом");
 
 
 //Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
@@ -51,3 +51,4 @@
 // {
 //     Console.Write(i + ", ");
 // }
+
